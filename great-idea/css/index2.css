@@ -198,4 +198,20 @@ margin: auto;
 	display: inline;
 	width:50%;
 }
+
+nav span.navtext a{
+	margin: 0 10px;
+}
+
+@media(max-width: 500px){
+	nav span.navtext{
+		display: flex;
+		flex-direction: column;
+	}
+
+	nav span.navtext a{
+		margin: 0 5px;
+		width: 100%;
+	}
+}
 /* Your code starts here! */
